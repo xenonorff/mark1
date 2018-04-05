@@ -1,0 +1,30 @@
+/*.knobs:hover {
+	background-color: #ffdf22;
+	position: relative;
+}
+
+.knob-1::before{
+	content: "";
+	position: absolute;
+	height: 50px;
+	width: 58px;
+	background-image: url(https://i.imgur.com/J6DC39n.png);
+	background-repeat: no-repeat;
+	left:400px;
+	top: 100px;
+	z-index: 100;
+}
+*/
+.active {
+	background-color: #19A2E9;
+}
+
+.switch:hover {
+	background-color: #19a2e9;
+}
+/*.knob-1:hover {
+	background-image: url(https://i.imgur.com/PXu43pA.png); 
+	position: -10px -10px;
+	height: 10px;
+	width: 10px;
+} */
