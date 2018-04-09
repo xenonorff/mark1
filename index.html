@@ -8,25 +8,40 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+
+
 	<header>
-		<nav class="level is-mobile">
-			<p class="level-item has-text-centered">
-				<img src="img\fly_PNG3950-170x170.png" style="height: 100px">
-			</p>
-			<p class="level-item has-text-centered">
-				<a href="#1" class="link has-text-danger">Home</a>
-			</p>
-			<p class="level-item has-text-centered">
-				<a href="#2" class="link has-text-danger">Shops</a>
-			</p>
-			<p class="level-item has-text-centered">
-				<a href="#3" class="link has-text-danger">Products</a>
-			</p>
-			<p class="level-item has-text-centered">
-				<a href="#4" class="link has-text-danger">Contacts</a>
-			</p>
+		<nav class="navbar is-transparent">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="https://bulma.io">
+					<img src="img/logo.png" alt="Mark v0.1" width="112" height="28">
+				</a>
+				<div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+			<div id="navbarExampleTransparentExample" class="navbar-menu">
+				<div class="navbar-start">
+					<a class="navbar-item" href="#1">
+						Home
+					</a>
+					<a class="navbar-item" href="#2">
+						Products
+					</a>
+					<a class="navbar-item" href="#3">
+						Order
+					</a>
+					<a class="navbar-item" href="#4">
+						Contacts
+					</a>
+				</div>
+			</div>
 		</nav>
 	</header>
+
 	<section id="1" class="hero is-dark">
 		<div class="hero-body">
 			<div class="container">
@@ -36,6 +51,8 @@
 			</div>
 		</div>
 	</section>
+
+
 	<section class="section">
     	<div class="container">
       		<p>
@@ -47,61 +64,9 @@
       		</p>
     	</div>
   	</section>
+
+
 	<section id="2" class="hero is-dark">
-		<div class="hero-body">
-			<div class="container">
-				<h1 class="title has-text-centered">
-					Location of our shops
-				</h1>
-			</div>
-		</div>
-	</section>
-	<article class="media" style="margin-top: 15px">
-		<div class="media-content">
-			<table class="table is-pulled-right box" style="margin-right: 10px">
-				<tr>
-					<td class="knobs knob-1">
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>s
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="media-content">
-			<img src="img/lhilqNE.png">
-		</div>
-	</article>
-	<section id="3" class="hero is-dark">
 		<div class="hero-body">
 			<div class="container">
 				<h1 class="title has-text-centered">
@@ -110,6 +75,8 @@
 			</div>
 		</div>
 	</section>
+
+
 	<section class="section">
 		<div>
 			<div class="mySlides">
@@ -149,6 +116,33 @@
 			<span class="button is-rounded switch" onclick="currentSlide(3)">3</span>
 		</div>
 	</section>
+
+
+	<section id="3" class="hero is-dark">
+		<div class="hero-body">
+			<div class="container">
+				<h1 class="title has-text-centered">
+					Order now!
+				</h1>
+			</div>
+		</div>
+	</section>
+	<div class="container is-half has-text-centered">
+		<div class="column is-half is-offset-one-quarter">
+			<input class="input" type="text" name="name" placeholder="Name" style="margin-bottom: 10px">
+			<div class="select" style="margin-bottom: 10px">
+				<select>
+					<option>White</option>
+					<option>Blue</option>
+					<option>Pink</option>
+				</select>
+			</div>
+			<input class="input" type="email" name="email" placeholder="E-mail" style="margin-bottom: 10px">
+			<input class="input" type="tel" name="phone" placeholder="Phone" style="margin-bottom: 10px">
+			<textarea class="textarea" name="comment" placeholder="Comment" rows="3" style="margin-bottom: 10px"></textarea>
+			<button class="button is-link is-center">Submit</button>
+		</div>
+	</div>
 	<section id="4" class="hero is-dark">
 		<div class="hero-body">
 			<div class="container">
@@ -158,51 +152,12 @@
 			</div>
 		</div>
 	</section>
-	<div class="columns is-centered">
-		<div class="column">
-			<table class="table is-pulled-right box">
-				<tr>
-					<td class="knobs knob-1">
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>s
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="column is-three-fifths">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d42679.0002117304!2d49.145640827933285!3d55.79256689762208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1522867069720" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div>
+
+
+	<div class="container">
 	</div>
+
+
 	<footer class="footer">
 		<div class="container">
 			<div class="content">
@@ -212,33 +167,7 @@
 			</div>
 		</div>
 	</footer>
-	<!-- <section class="columns">
-		<div class="column is-one-third">
-			<table class="table">
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-				<tr>
-					<td>
-						698-612 N Mount St <br>
-						Baltimore, MD 21217
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="column">
-			<img src="https://i.imgur.com/lhilqNE.png">
-		</div>
-	</section> -->
-	<!--
-	<div id="#1" class="box">
-		<input type="text" name="login" id="login" class="input login">
-		<input type="password" name="password" id="password" class="input password">
-		<input type="submit" name="submit" class="button is-dark is-centered submit">
-	</div> -->
+
 
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
