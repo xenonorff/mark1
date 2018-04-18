@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bulma.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa38f0365b27a2c56159135edcc2150f809b7efb346324b55b3a9fbd4378b2853&amp;lang=ru_RU&amp;scroll=true&amp;id=mymap"></script>
 </head>
 <body>
 
@@ -13,7 +14,7 @@
 	<header>
 		<nav class="navbar is-transparent">
 			<div class="navbar-brand">
-				<a class="navbar-item" href="https://xenonorff.github.io/mark1">
+				<a class="navbar-item" href="index.html">
 					<img src="img/logo.png" alt="Mark v0.1" width="112" height="28">
 				</a>
 				<div class="navbar-burger burger" data-target="navbarBurger">
@@ -75,8 +76,6 @@
 			</div>
 		</div>
 	</section>
-
-
 	<section class="section">
 		<div>
 			<div class="mySlides">
@@ -127,7 +126,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="container is-half has-text-centered">
+	<div class="container has-text-centered">
 		<div class="column is-half is-offset-one-quarter">
 			<input class="input" type="text" name="name" placeholder="Name" style="margin-bottom: 10px">
 			<div class="select" style="margin-bottom: 10px">
@@ -143,6 +142,8 @@
 			<button class="button is-link is-center">Submit</button>
 		</div>
 	</div>
+
+
 	<section id="4" class="hero is-dark">
 		<div class="hero-body">
 			<div class="container">
@@ -152,9 +153,48 @@
 			</div>
 		</div>
 	</section>
-
-
 	<div class="container">
+		<div class="columns is-paddingless" style="margin: 20px 10px 20px 10px;">
+			<div class="column is-one-third is-paddingless">
+				<div class="content">
+					<h1>Mac</h1>
+					<p>
+						Pushkin st. 12
+					</p>
+					<h6 class="is-marginless">
+						Working hours:
+					</h6>
+					<dl class="time is-marginless">
+						<dt>Mon-Fri:</dt>
+						<dd>08.00-21.00</dd>
+					</dl>
+					<dl class="time">
+						<dt>Sat-Sun:</dt>
+						<dd>08.00-17.00</dd>
+					</dl>
+				</div>
+				<div class="content">
+					<h1>KFC</h1>
+					<p>
+						Pushkin st. 43
+					</p>
+					<h6 class="is-marginless">
+						Working hours:
+					</h6>
+					<dl class="time is-marginless">
+						<dt>Mon-Fri:</dt>
+						<dd>08.00-21.00</dd>
+					</dl>
+					<dl class="time">
+						<dt>Sat-Sun:</dt>
+						<dd>08.00-17.00</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="column is-paddingless">
+				<div id="mymap" style="height: 500px"></div>
+			</div>
+		</div>
 	</div>
 
 
@@ -170,5 +210,7 @@
 
 
 	<script type="text/javascript" src="js/script.js"></script>
+
+
 </body>
 </html>
